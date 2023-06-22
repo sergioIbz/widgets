@@ -14,7 +14,7 @@ class MenuItems {
   });
 }
 
-const listMenuItemes = <MenuItems>{
+const listMenuItemes = <MenuItems>[
   MenuItems(
     title: 'title',
     subTitle: 'subtitle',
@@ -27,4 +27,4 @@ const listMenuItemes = <MenuItems>{
     link: '/',
     icon: Icons.ac_unit_outlined,
   ),
-};
+];
