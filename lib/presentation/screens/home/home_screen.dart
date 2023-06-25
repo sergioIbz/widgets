@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../menu/menu_items.dart';
 
@@ -36,7 +37,7 @@ class _CustomListTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context).colorScheme;
     return ListTile(
-      title: Text(listMenuItemes[0].title),
+      title: Text(listMenuItemes[index].title),
       subtitle: Text(listMenuItemes[index].subTitle),
       leading: Icon(
         listMenuItemes[index].icon,
@@ -47,7 +48,7 @@ class _CustomListTitle extends StatelessWidget {
         color: theme.primary,
       ),
       onTap: ()=>{
-        //TODO: navegar a otras pantallas
+      context.push(listMenuItemes[index].link)
       },
     );
   }

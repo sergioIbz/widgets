@@ -16,15 +16,15 @@ class MenuItems {
 
 const listMenuItemes = <MenuItems>[
   MenuItems(
-    title: 'title',
+    title: 'buttons',
     subTitle: 'subtitle',
-    link: '/',
-    icon: Icons.abc,
+    link: '/buttons',
+    icon: Icons.smart_button_outlined,
   ),
   MenuItems(
-    title: 'title2',
+    title: 'cards',
     subTitle: 'subtitle',
-    link: '/',
-    icon: Icons.ac_unit_outlined,
+    link: '/cards',
+    icon: Icons.credit_card,
   ),
 ];
