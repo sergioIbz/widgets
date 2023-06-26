@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets/presentation/screens/cards/cards_screen.dart';
 
 import '../../../menu/menu_items.dart';
 
