@@ -49,7 +49,7 @@ class _CustomListTitle extends StatelessWidget {
         color: theme.primary,
       ),
       onTap: ()=>{
-      context.pushNamed(listMenuItemes[index].link)
+      context.push(listMenuItemes[index].link)
       },
     );
   }

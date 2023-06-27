@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/presentation/screens/screens.dart';
 
 class MenuItems {
   final String title;
@@ -17,16 +16,22 @@ class MenuItems {
 
 const listMenuItemes = <MenuItems>[
   MenuItems(
-    title: 'buttons',
-    subTitle: 'subtitle',
-    link: ButtonsScreen.name,
+    title: 'Buttons',
+    subTitle: 'Varios botones en flutter',
+    link: '/buttons',
 
     icon: Icons.smart_button_outlined,
   ),
   MenuItems(
-    title: 'cards',
-    subTitle: 'subtitle',
-    link: CardsScreen.name,
+    title: 'Cards',
+    subTitle: 'Estilos de tarjetas',
+    link: '/cards',
     icon: Icons.credit_card,
+  ),
+  MenuItems(
+    title: 'Progress indcator',
+    subTitle: 'General y controladors',
+    link: '/progress',
+    icon: Icons.cached_outlined,
   ),
 ];
