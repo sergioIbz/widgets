@@ -34,4 +34,16 @@ const listMenuItemes = <MenuItems>[
     link: '/progress',
     icon: Icons.cached_outlined,
   ),
+  MenuItems(
+    title: 'Snack bar',
+    subTitle: 'Mostar stanack bar',
+    link: '/snackbar',
+    icon: Icons.remove_red_eye_outlined,
+  ),
+  MenuItems(
+    title: 'Animated container',
+    subTitle: 'Container animado',
+    link: '/animated',
+    icon: Icons.play_arrow_outlined,
+  ),
 ];

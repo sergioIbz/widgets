@@ -52,7 +52,7 @@ class _ControlledProgresIndicator extends StatelessWidget {
           const Duration(milliseconds: 300),
           (value) => (value * 2) / 100,
         ).takeWhile(
-          (value) => value < 100,
+          (value) => value <= 1,
         ),
         builder: (context, snapshot) {
           final progressValue = snapshot.data ?? 0;
@@ -70,8 +70,11 @@ class _ControlledProgresIndicator extends StatelessWidget {
                 Expanded(
                   child: LinearProgressIndicator(
                     value: progressValue,
+                    
                   ),
                 ),
+                const SizedBox(width: 10),
+                Text('${(progressValue*100).toInt()} %')
               ],
             ),
           );
