@@ -46,4 +46,22 @@ const listMenuItemes = <MenuItems>[
     link: '/animated',
     icon: Icons.play_arrow_outlined,
   ),
+  MenuItems(
+    title: 'Ui',
+    subTitle: 'Controles ui',
+    link: '/ui-controls',
+    icon: Icons.format_paint_outlined,
+  ),
+  MenuItems(
+    title: 'Tuorial',
+    subTitle: 'Pequeña introduccion a la app',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
+  MenuItems(
+    title: 'Swiper',
+    subTitle: 'Prueba carrusel img',
+    link: '/swiper',
+    icon: Icons.swap_horiz_outlined,
+  ),
 ];

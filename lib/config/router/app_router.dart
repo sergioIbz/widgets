@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:widgets/presentation/screens/swiper/swiper_screen.dart';
 import '../../presentation/screens/screens.dart';
 
 
@@ -38,6 +39,21 @@ final appRouter = GoRouter(
       name: AnimatedScreen.name,
       path: '/animated',
       builder: (context, state) => const AnimatedScreen(),
+    ),
+    GoRoute(
+      name: UiControlsScreen.name,
+      path: '/ui-controls',
+      builder: (context, state) => const UiControlsScreen(),
+    ),
+    GoRoute(
+      name: AppTutorialScreen.name,
+      path: '/tutorial',
+      builder: (context, state) => const AppTutorialScreen(),
+    ),
+    GoRoute(
+      name: SwiperScreen.name,
+      path: '/swiper',
+      builder: (context, state) => const SwiperScreen(),
     ),
   ],
 );
